@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap-3.4.1.css">
+<style type="text/css">
+	ul{
+		list-style-type: none;
+	}
+	li{
+		margin-bottom: 2%;
+	}
+	label{
+		padding-right: 3%;
+		font-size: 118%;
+	}
+	input{
+		width: 25%;
+	}
+</style>
+</head>
+<body>
+
+	<div class="container" style="margin-left: 30%; margin-right: 25%;
+							 padding-top: 3%;">
+		<ul>
+			<li>
+				<h2 style="margin-bottom: 3%;">회원 가입</h2>
+			</li>
+			<li>
+				<label style="border: 1px solid gray; padding: 1%;
+								background-color: lightgray; border-radius: 10%;">
+					기본사항				
+				</label>
+			</li>
+			<li>
+				<label>아&nbsp;&nbsp;이&nbsp;&nbsp;디 : </label>
+				<input type="text" class="form-inline"  />
+				<button class="btn btn-default form-inline">중복확인</button>
+			</li>
+			<li>
+				<label>패스워드 : </label>
+				<input type="password" class="form-inline"  />
+			</li>
+			<li> <br /> </li>
+			<li>
+				<label style="border: 1px solid gray; padding: 1%;
+								background-color: lightgray; border-radius: 10%;">
+					인적사항				
+				</label>
+			<li>
+				<label>이 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 름 : </label>
+				<input type="text" class="form-inline"
+						style="width: 28%;" 
+						placeholder="한글 or 영문  3~ 16글자 이내" />
+			</li>
+			<li>
+				<div class="col-xs-2" style="margin-left: -1.5%;">
+					<label>성 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 별 : </label>
+				</div>
+				<div class="col-xs-5 center-block">
+					<input type="radio" name="gender" value="여자" 
+						style="width: 15%; margin-left: -10%;" class="form-inline" />여자
+					&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="gender" value="남자"
+					    style="width: 15%; margin-left: 10%; margin-bottom: 3%"
+					              class="form-inline" />남자
+				</div>
+				<br />
+			</li>
+			<li class="form-inline">
+				<label>생년월일 : </label>
+				<select class="form-control">
+					<option value="">년도</option>
+					<option value="">1995</option>
+					<option value="">1994</option>
+					<option value="">1993</option>
+					<option value="">1992</option>
+					<option value="">1991</option>
+					<option value="">1990</option>
+					<option value="">1989</option>
+				</select>
+				-
+				<select class="form-control">
+					<option value="">월</option>
+					<option value="">1월</option>
+					<option value="">2월</option>
+					<option value="">3월</option>
+					<option value="">4월</option>
+					<option value="">5월</option>
+					<option value="">6월</option>
+					<option value="">7월</option>
+					<option value="">8월</option>
+					<option value="">9월</option>
+					<option value="">10월</option>
+					<option value="">11월</option>
+					<option value="">12월</option>
+				</select>
+				-
+				<select class="form-control">
+					<option value="">일</option>
+					<option value="">1일</option>
+					<option value="">2일</option>
+					<option value="">3일</option>
+					<option value="">4일</option>
+					<option value="">5일</option>
+					<option value="">6일</option>
+					<option value="">7일</option>
+					<option value="">8일</option>
+					<option value="">9일</option>
+					<option value="">10일</option>
+					<option value="">11일</option>
+					<option value="">12일</option>
+					<option value="">13일</option>
+					<option value="">14일</option>
+					<option value="">15일</option>
+					<option value="">16일</option>
+					<option value="">17일</option>
+					<option value="">18일</option>
+					<option value="">19일</option>
+					<option value="">20일</option>
+					<option value="">21일</option>
+					<option value="">22일</option>
+					<option value="">23일</option>
+					<option value="">24일</option>
+					<option value="">25일</option>
+					<option value="">26일</option>
+					<option value="">27일</option>
+					<option value="">28일</option>
+					<option value="">29일</option>
+					<option value="">30일</option>
+					<option value="">31일</option>
+				</select>
+			</li>
+			<li>
+				<div class="col-xs-5 center-block">
+					<input type="radio" name="양/음력" value="양력" 
+						style="width: 15%; margin-left: 28%;" class="form-inline" />양력
+					&nbsp;&nbsp;&nbsp;
+					<input type="radio" name="양/음력" value="음력"
+					    style="width: 15%; margin-left: 10%;" class="form-inline" />음력
+				</div>
+			</li>
+			<li>
+				<br />
+			</li>
+			<li>
+				<br />
+			</li>
+			<li>
+				<label style="border: 1px solid gray; padding: 1%;
+								background-color: lightgray; border-radius: 10%;">
+								주소입력</label>
+			</li>
+			<li>
+				<label class="form-inline" >우편번호</label>
+
+					<input type="text" class="form-inline"
+						 	style="width: 13%;"readonly />
+					<button class="btn btn-default">검색</button>
+			</li>
+			<li>
+				<label class="form-inline" >주 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 소</label>
+
+					<input type="text" class="form-inline"
+						 	style="width: 50%;"readonly />
+			</li>
+			<li>
+					<label>상세주소</label>
+				<input type="text" placeholder="나머지 주소 입력"
+						style="width: 50%;" />
+			</li>
+		</ul>
+	</div>
+
+</body>
+</html>
